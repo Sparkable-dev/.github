@@ -1,0 +1,27 @@
+name: ✨ Feature Request
+description: Suggest a new feature or improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like?
+      description: Describe the feature or improvement. What should it do, and where should it live?
+      placeholder: "Add a 'Download as PDF' button on the invoice page so clients can save invoices."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it needed?
+      description: One or two sentences — what problem does it solve or what does it make easier?
+    validations:
+      required: true
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Screenshot / Mockup
+      description: Drag and drop a screenshot of the relevant page with arrows/annotations showing where the feature should go, or a rough sketch if you have one.
+    validations:
+      required: false
